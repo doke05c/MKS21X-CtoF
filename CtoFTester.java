@@ -12,8 +12,14 @@ class CtoFtester{
 	public static void main(String[] args) {
 		double x = celsiusToFahrenheit(0);
 		double y = fahrenheitToCelsius(32);
+		double z = fahrenheitToCelsius(98.6);
+		double a = celsiusToFahrenheit(100.0000001);
+		double b = celsiusToFahrenheit(173.88888);
 		System.out.println(x);
 		System.out.println(y);
+		System.out.println(z);
+		System.out.println(a);
+		System.out.println(b);
 	}
 	
 }
